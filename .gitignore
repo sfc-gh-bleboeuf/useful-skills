@@ -1,0 +1,23 @@
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+credentials.json
+**/secrets/
+**/*secret*
+**/*credential*
+**/*password*
+.streamlit/secrets.toml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!*.tfvars.example
+
+# OS
+.DS_Store
